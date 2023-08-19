@@ -418,7 +418,10 @@ background-color: #670c3e;
 
           }
     
-    /* end portfolio */
+   .custom-toggler.navbar-toggler[aria-expanded="true"] {
+    background-color: #670c3e; /* Change to your desired color */
+}
+
         
        
 
@@ -429,10 +432,10 @@ background-color: #670c3e;
     <nav class="navbar navbar-expand-lg navbar-dark" >
         <div class="container">
             <img src="ol.PNG" alt="Logo" width="120" height="90">
-       
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"  ></span>
-            </button>
+       <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -507,7 +510,7 @@ background-color: #670c3e;
                           
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">   <i class="fa fa-link"></i>Responsive Website</h3>
+                            <h4 class="media-heading">   <i class="fa fa-link"></i>Responsive Website</h4>
                             <p>I excel in developing responsive designs that adapt flawlessly across various devices and screen sizes. Let's ensure your content looks and functions seamlessly, no matter the platform.</p>
                         </div>
                     </div>
@@ -519,7 +522,7 @@ background-color: #670c3e;
                           
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">   <i class="fa fa-laptop"></i>Front & Back End </h3>
+                            <h4 class="media-heading">   <i class="fa fa-laptop"></i>Front & Back End </h4>
                             <p>I specialize in front-end development, crafting interactive interfaces that users love to engage with. Additionally, I am skilled in back-end programming, ensuring your application runs efficiently and securely behind the scenes.</p>
                         </div>
                     </div>
