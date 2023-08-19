@@ -28,15 +28,67 @@
 	       
         }
         /* Navbar styles */
-        .navbar {
-            background-color: rgb(247, 208, 226);
-		color:rgb(38, 2, 24);
-            height: 100px;
+        
+		    .navbar {
+            background-color: black;
         }
         .navbar-brand {
-
-            color: rgb(38, 2, 24)  ;
+            color: white;
             font-size: 24px;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+        }
+        .navbar-nav .nav-link:hover {
+            color: red;
+        }nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }/* Media query for mobile responsiveness */
+        @media (max-width: 768px) {
+            /* Reset header and footer styles for mobile */
+            header, footer {
+                padding: 10px 0;
+            }
+
+            /* Reset header styles for mobile */
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            /* Reset navigation styles for mobile */
+            nav {
+                flex-direction: row;
+                gap: 20px;
+            }
+
+            /* Adjust the width of the logo for mobile */
+            #logo {
+                max-width: 70%;
+            }
+
+            /* Adjust font size for mobile */
+            h1 {
+                font-size: 24px;
+            }
+
+            /* Adjust contact information styles for mobile */
+            .contact-info {
+                font-size: 14px;
+                margin-top: 10px;
+                padding: 10px;
+            }
+
+            .contact-info h3 {
+                font-size: 18px;
+            }
+
+            .contact-info li {
+                margin-bottom: 5px;
+            }
         }
         .navbar-nav .nav-link {
             color:  rgb(38, 2, 24)  ;
